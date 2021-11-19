@@ -10,7 +10,6 @@ import AlamofireImage
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
     @IBOutlet weak var tableView: UITableView!
     var movies = [[String:Any]]()
 
@@ -34,6 +33,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                  self.tableView.reloadData()
              }
         }
+        
         task.resume()
     }
     
