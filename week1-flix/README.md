@@ -14,7 +14,6 @@
 <img src="https://github.com/flucchetti/codepath-asmts/blob/main/week1-flix/flix3.gif" width=250><br> 
 
 ### Notes
-I had trouble with the trailer feature.
 
 # Flix
 
