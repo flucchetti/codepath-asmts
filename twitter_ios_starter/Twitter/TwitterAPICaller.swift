@@ -10,11 +10,11 @@ import UIKit
 import BDBOAuth1Manager
 
 class TwitterAPICaller: BDBOAuth1SessionManager {
-//    static let key1 = "5lUJuO5AUpPUCez4ewYDFrtgh"
-//    static let key2 = "s5ynGqXzstUZwFPxVyMDkYh197qvHOcVM3kwv1o2TKhS1avCdS"
-//    my keys
-    static let key1 = "svvU3iLOAY9566CZresxc3VnF"
-    static let key2 = "3BraQynw60ITU5B0V7ztBbHs0wNIxmQh6CQx1dKXn3o85yS6Op"
+    static let key1 = "5lUJuO5AUpPUCez4ewYDFrtgh"
+    static let key2 = "s5ynGqXzstUZwFPxVyMDkYh197qvHOcVM3kwv1o2TKhS1avCdS"
+//    my keys : don't work, gets 403:forbidden error
+//    static let key1 = "svvU3iLOAY9566CZresxc3VnF"
+//    static let key2 = "3BraQynw60ITU5B0V7ztBbHs0wNIxmQh6CQx1dKXn3o85yS6Op"
 
     static let client = TwitterAPICaller(baseURL: URL(string: "https://api.twitter.com"), consumerKey: key1, consumerSecret: key2)
     
@@ -50,6 +50,7 @@ class TwitterAPICaller: BDBOAuth1SessionManager {
         TwitterAPICaller.client?.get(url, parameters: parameters, progress: nil, success: { (task: URLSessionDataTask, response: Any?) in
             success(response as! NSDictionary)
         }, failure: { (task: URLSessionDataTask?, error: Error) in
+            
             failure(error)
         })
     }
