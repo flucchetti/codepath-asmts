@@ -108,4 +108,15 @@ class TwitterAPICaller: BDBOAuth1SessionManager {
             failure(error)
         })
     }
+    
+    
+    func getUser(userID: String, success: @escaping (NSDictionary) -> (), failure: @escaping (Error) -> ()){
+        let url = "https://api.twitter.com/1.1/users/show.json"
+        TwitterAPICaller.client?.get(url, parameters: ["screen_name": userID], progress: nil, success: {(task: URLSessionDataTask, response: Any?) in
+            success(response as! NSDictionary)},
+            failure: { (task: URLSessionDataTask?, error: Error) in
+                failure(error)
+            })
+    }
+   
 }

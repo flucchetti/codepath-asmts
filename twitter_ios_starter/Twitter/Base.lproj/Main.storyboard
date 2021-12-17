@@ -150,20 +150,12 @@
                                 <action selector="onLogout:" destination="a9c-UF-8t2" id="Zaz-Jq-Hrp"/>
                             </connections>
                         </barButtonItem>
-                        <rightBarButtonItems>
-                            <barButtonItem title="Tweet" id="IH0-3R-wxd">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <segue destination="3jv-Bb-DcF" kind="presentation" id="ybA-JH-j5C"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Profile" id="doJ-uY-lcH">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <segue destination="4b0-nn-d7q" kind="presentation" id="h5i-xz-Tkk"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" title="Tweet" id="IH0-3R-wxd">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="3jv-Bb-DcF" kind="presentation" id="ybA-JH-j5C"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFg-cl-3Nu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -188,8 +180,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="har-VV-Grz">
-                                <rect key="frame" x="336.5" y="194" width="28.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="280" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="har-VV-Grz">
+                                <rect key="frame" x="334" y="194" width="31" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -250,12 +242,12 @@
             </objects>
             <point key="canvasLocation" x="-209" y="204"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="wcf-tR-rSe">
             <objects>
-                <viewController id="5cI-6V-Gem" sceneMemberID="viewController">
+                <viewController id="5cI-6V-Gem" customClass="ProfileViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mVd-g3-BPT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eE0-zt-0pc">
@@ -315,7 +307,21 @@
                         <viewLayoutGuide key="safeArea" id="wWg-8B-dOX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6qo-dB-Ln0"/>
+                    <navigationItem key="navigationItem" id="6qo-dB-Ln0">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="MwP-rG-mfj">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="back:" destination="5cI-6V-Gem" id="orL-MQ-s4i"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="followerCount" destination="SUC-If-b1d" id="ufj-Aw-prO"/>
+                        <outlet property="followingCount" destination="d9j-n8-EgM" id="a9z-u8-iWe"/>
+                        <outlet property="profileImage" destination="eE0-zt-0pc" id="7Bj-pY-Pd7"/>
+                        <outlet property="tagLabel" destination="0w6-RS-h1D" id="FGS-42-3a0"/>
+                        <outlet property="tweetCount" destination="LNm-3H-Lou" id="R3j-Sg-a5Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phK-VM-JPw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -350,7 +356,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4b0-nn-d7q" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4fh-SG-uNt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor"/>
                         <color key="barTintColor" systemColor="linkColor"/>
