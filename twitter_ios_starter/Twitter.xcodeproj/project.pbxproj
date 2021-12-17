@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D188611276C70C7004F97FA /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D188610276C70C7004F97FA /* TweetViewController.swift */; };
 		1DAFD8D62762F9F700A946AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFD8D52762F9F700A946AA /* LoginViewController.swift */; };
 		1DAFD8D82763003600A946AA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFD8D72763003600A946AA /* HomeTableViewController.swift */; };
 		1DAFD8DA276305BD00A946AA /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFD8D9276305BD00A946AA /* TweetTableViewCell.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D188610276C70C7004F97FA /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		1DAFD8D52762F9F700A946AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1DAFD8D72763003600A946AA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		1DAFD8D9276305BD00A946AA /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
 				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
+				1D188610276C70C7004F97FA /* TweetViewController.swift */,
 				1DAFD8D72763003600A946AA /* HomeTableViewController.swift */,
 				1DAFD8D52762F9F700A946AA /* LoginViewController.swift */,
 				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
@@ -211,6 +214,7 @@
 			files = (
 				1DAFD8D82763003600A946AA /* HomeTableViewController.swift in Sources */,
 				1DAFD8D62762F9F700A946AA /* LoginViewController.swift in Sources */,
+				1D188611276C70C7004F97FA /* TweetViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
 				1DAFD8DA276305BD00A946AA /* TweetTableViewCell.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
