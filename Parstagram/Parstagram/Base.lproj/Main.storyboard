@@ -174,11 +174,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="lmy-G1-bXR">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="evF-KY-BIH"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="evF-KY-BIH">
+                            <connections>
+                                <segue destination="8Tc-DA-LQF" kind="presentation" id="DKk-Lm-rAu"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="4VU-99-YBB" id="Fls-tC-C4n"/>
-                        <segue destination="8Tc-DA-LQF" kind="presentation" id="3tM-Fo-vDQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TA9-5S-ixf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

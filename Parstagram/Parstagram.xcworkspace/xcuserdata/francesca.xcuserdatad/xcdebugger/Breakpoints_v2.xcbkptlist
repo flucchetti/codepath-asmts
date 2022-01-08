@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Parstagram/PostCell.swift"
@@ -21,7 +21,7 @@
             <Locations>
                <Location
                   uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - 944056396f470780"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Parstagram.PostCell.photoView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
@@ -36,7 +36,7 @@
                </Location>
                <Location
                   uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - 978bc27969050bc"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Parstagram.PostCell.photoView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
@@ -51,7 +51,7 @@
                </Location>
                <Location
                   uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - c0a25f491b10eb9e"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Parstagram.PostCell.photoView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
@@ -66,7 +66,7 @@
                </Location>
                <Location
                   uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - f841b57bd159d8b4"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Parstagram.PostCell.photoView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
@@ -81,7 +81,7 @@
                </Location>
                <Location
                   uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - aad320a912773116"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Parstagram.PostCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Parstagram.PostCell"
@@ -96,7 +96,7 @@
                </Location>
                <Location
                   uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - bc86ff970a8d6f84"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Parstagram.PostCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Parstagram.PostCell&gt;"
