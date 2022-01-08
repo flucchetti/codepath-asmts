@@ -59,7 +59,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         post.saveInBackground{(success,error) in
             if success {
-//                dismiss does not work
                 self.dismiss(animated: true, completion: nil)
                 print("Post saved!")
             } else {

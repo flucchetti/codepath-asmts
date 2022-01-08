@@ -11,6 +11,7 @@ import AlamofireImage
 
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    let myRefreshControl =  UIRefreshControl()
     @IBOutlet weak var tableView: UITableView!
     var posts = [PFObject]()
     
@@ -19,11 +20,17 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        myRefreshControl.addTarget(self, action: #selector(queryPosts), for: .valueChanged)
+        tableView.refreshControl = myRefreshControl
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        
+        queryPosts()
+    }
+    
+    @objc func queryPosts(){
         let query = PFQuery(className: "Posts")
         query.includeKey("author")
         query.limit = 20
@@ -31,7 +38,9 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         query.findObjectsInBackground{(posts, error) in
             if posts != nil {
                 self.posts = posts!
+                self.posts = self.posts.reversed()
                 self.tableView.reloadData()
+                self.myRefreshControl.endRefreshing()
                 print("Found posts")
             } else {
                 print("Did not find posts")
@@ -59,6 +68,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.photoView.af.setImage(withURL: url)
 
         return cell
+    }
+    
+    func onRefresh() {
+       
     }
 
     /*
