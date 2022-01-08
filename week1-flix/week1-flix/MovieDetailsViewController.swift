@@ -7,6 +7,7 @@
 
 import UIKit
 import AlamofireImage
+import SwiftUI
 
 class MovieDetailsViewController: UIViewController {
 
@@ -70,5 +71,11 @@ class MovieDetailsViewController: UIViewController {
         let trailerViewController = segue.destination as! TrailerViewController
         trailerViewController.movieURL = URL(string :"https://www.youtube.com/watch?v=" + key)
         
+    }
+}
+
+struct MovieDetailsViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B45F0420-0B87-4C2B-8697-2429EF099FD9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Parstagram/PostCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PostCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - 944056396f470780"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Parstagram.PostCell.photoView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Parstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francesca/codepath/codepath-asmts/Parstagram/Parstagram/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - 978bc27969050bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Parstagram.PostCell.photoView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Parstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francesca/codepath/codepath-asmts/Parstagram/Parstagram/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - c0a25f491b10eb9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Parstagram.PostCell.photoView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Parstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francesca/codepath/codepath-asmts/Parstagram/Parstagram/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - f841b57bd159d8b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Parstagram.PostCell.photoView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Parstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francesca/codepath/codepath-asmts/Parstagram/Parstagram/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - aad320a912773116"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Parstagram.PostCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Parstagram.PostCell"
+                  moduleName = "Parstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francesca/codepath/codepath-asmts/Parstagram/Parstagram/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "16BB3C29-E89E-4516-A782-9D1681912DAB - bc86ff970a8d6f84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Parstagram.PostCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Parstagram.PostCell&gt;"
+                  moduleName = "Parstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francesca/codepath/codepath-asmts/Parstagram/Parstagram/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
