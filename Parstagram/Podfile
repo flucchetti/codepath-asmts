@@ -20,4 +20,6 @@ target 'Parstagram' do
 
   pod 'Parse'
 
+  pod 'MessageInputBar'
+
 end
